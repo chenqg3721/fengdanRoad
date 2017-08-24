@@ -1,0 +1,6 @@
+framework module Pods_beijingRoadKit_Tests {
+  umbrella header "Pods-beijingRoadKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

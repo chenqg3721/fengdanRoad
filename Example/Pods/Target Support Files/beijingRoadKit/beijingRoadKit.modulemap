@@ -1,0 +1,6 @@
+framework module beijingRoadKit {
+  umbrella header "beijingRoadKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
