@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'beijingRoadKit_Example' do
+  pod 'beijingRoadKit', :path => '../'
+
+  target 'beijingRoadKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
